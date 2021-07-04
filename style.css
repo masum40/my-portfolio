@@ -47,3 +47,39 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.basic{
+    border-left: 5px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(tomato,purple);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 30px gray;
+    width: 30%;
+    margin-left: 2%;
+}
+.standard{
+    border-left: 5px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(green,blue);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 30px gray;
+    width: 30%;
+    margin-left: 2%;
+}
+.premium{
+    border-left: 5px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(chocolate,yellow);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 30px gray;
+    width: 30%;
+    margin-left: 2%;
+}
+.last{
+    color: white;
+    background-image: linear-gradient(purple,orange);
+    font-weight: 700;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
